@@ -1,0 +1,96 @@
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Arvo', serif;
+    scroll-behavior: smooth;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.logo {
+    width: 100%;
+    margin-bottom: -70px;
+}
+
+
+.title-underline {
+    width: 200px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.about-picture {
+    background: url(images/img-1.jpg)center/cover no-repeat fixed;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.btn-design {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.btn-color {
+    border-color: #a953a4;
+    color: #a953a4;
+}
+
+.btn-color:hover {
+    background-color: #a953a4;
+    color: white;
+    text-decoration: none;
+}
+
+.purple-color {
+    color: #a953a4;
+}
+
+.yellow-color {
+    color: #ffc107;
+}
+
+.bg-purple {
+    background-color: #a953a4;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 40%;
+    float: right;
+    margin-right: 80px;
+
+}
+
+@media only screen and (max-device-width: 800px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .logo {
+        width: 40%;
+        float: right;
+        margin-right: 60px;
+        margin-top: 80px;
+    }
+}
